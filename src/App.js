@@ -6,6 +6,8 @@ import {useState} from 'react'
 import Overlay from './components/Overlay';
 
 function App() {
+
+  // see https://github.com/elrumordelaluz/reactour for possible feature 
   const [active, setActive] = useState(false)
 
   const toggleOverlay = () => {
