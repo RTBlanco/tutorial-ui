@@ -22,9 +22,6 @@ function App() {
         </Row>
       </Container>
     </>
-    
-
-    
   );
 }
 
