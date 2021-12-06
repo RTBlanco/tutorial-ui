@@ -3,6 +3,7 @@ import UserForm from './components/UserForm'
 import './App.css';
 import Banner from './components/Banner';
 import {useState} from 'react'
+import Overlay from './components/Overlay';
 
 function App() {
   const [active, setActive] = useState(false)
@@ -13,7 +14,7 @@ function App() {
 
   return (
     <>
-      {active ? <div id="overlay" onClick={toggleOverlay}></div> : ''}
+      {active ? <Overlay toggleOverlay={toggleOverlay}/> : ''}
       <Container fluid='sm'>
         <Banner />
         <UserForm />
