@@ -1,10 +1,12 @@
+import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import UserForm from './components/UserForm'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      hey
-    </div>
+    <Container fluid='lg'>
+      <UserForm />
+    </Container>
   );
 }
 
