@@ -1,11 +1,10 @@
-import {Row} from 'react-bootstrap';
+import {Image} from 'react-bootstrap';
 import "./Banner.css"
+import Logo from '../Logo.png'
 
 const Banner = () => {
   return (
-    <Row id="banner"  className="d-flex justify-content-center align-items-center" >
-      <h1 className="text-center">Tutorial UI</h1>
-    </Row>
+    <Image id="banner" src={Logo} className="mx-auto d-block"/>
   );
 };
 
