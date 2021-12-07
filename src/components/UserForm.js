@@ -14,7 +14,7 @@ const UserForm = () => {
     <Form id="user-form" onSubmit={handleSubmit} >
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
+        <Form.Control type="email" placeholder="Enter email"  autoComplete="username"/>
         <Form.Text className="text-muted">
           We'll never share your email with anyone else.
         </Form.Text>
@@ -22,7 +22,7 @@ const UserForm = () => {
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Password</Form.Label>
-        <Form.Control  type={checked ? "text" : "current-password"} placeholder="Password" />
+        <Form.Control type={checked ? "text" : "password"} placeholder="Password" autoComplete="current-password"/>
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicCheckbox">
         <Form.Check type="checkbox" label="Show password" onChange={() => setChecked(prev => !prev)}/>
