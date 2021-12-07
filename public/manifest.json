@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Tuturial UI",
+  "name": "Tutorial UI",
+  "description": "Gives a simple tutorial to the user for filling out form",
   "icons": [
     {
       "src": "favicon.ico",

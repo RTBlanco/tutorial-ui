@@ -1,8 +1,8 @@
-import { Container, Row, Button } from 'react-bootstrap';
-import UserForm from './components/UserForm'
 import './App.css';
-import Banner from './components/Banner';
+import Logo from './Logo.png'
 import { useTour } from '@reactour/tour'
+import UserForm from './components/UserForm'
+import { Container, Row, Button, Image } from 'react-bootstrap';
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Container fluid='sm'>
-        <Banner />
+        <Image id="banner" src={Logo} className="mx-auto d-block" fluid/>
         <UserForm />
         <Row fluid="sm" className="d-flex justify-content-center align-items-center">
           <Button variant="primary" size="lg" style={{marginTop: "50px"}} onClick={() => setIsOpen(true)} >Start Tutorial</Button>
