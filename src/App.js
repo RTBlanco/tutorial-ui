@@ -17,7 +17,7 @@ function App() {
         <Banner />
         <UserForm />
         <Row fluid="sm" className="d-flex justify-content-center align-items-center">
-          <Button variant="success" size="lg" style={{marginTop: "50px", width: "25%"}} onClick={() => setIsOpen(true)} >Start Tutorial</Button>
+          <Button variant="primary" size="lg" style={{marginTop: "50px"}} onClick={() => setIsOpen(true)} >Start Tutorial</Button>
         </Row>
       </Container>
     </>
