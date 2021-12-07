@@ -8,15 +8,15 @@ export const steps = [
     content: 'this is the user form'
   },
   {
-    selector:"#email",
+    selector:"#formBasicEmail",
     content: "enter the your email here"
   },
   {
-    selector:"#password",
+    selector:"#formBasicPassword",
     content: "enter the your password here"
   },
   {
-    selector: "#checkbox",
+    selector: "#formBasicCheckbox",
     content: "toggle if you would like to show password"
   },
   {
