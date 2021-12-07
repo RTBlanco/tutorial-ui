@@ -4,7 +4,7 @@ import Logo from '../Logo.png'
 
 const Banner = () => {
   return (
-    <Image id="banner" src={Logo} className="mx-auto d-block"/>
+    <Image id="banner" src={Logo} className="mx-auto d-block" fluid/>
   );
 };
 
