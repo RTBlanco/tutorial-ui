@@ -27,7 +27,7 @@ const UserForm = () => {
       <Form.Group className="mb-3" controlId="formBasicCheckbox">
         <Form.Check type="checkbox" label="Show password" onChange={() => setChecked(prev => !prev)}/>
       </Form.Group>
-      <Button id="submit" variant="primary" type="submit">
+      <Button id="submit" variant="success" type="submit">
         Submit
       </Button>
     </Form>
